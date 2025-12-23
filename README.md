@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Portfolio – Mamy Tahirisoa
 
-First, run the development server:
+Portfolio de développeur Front & Back réalisé avec Next.js. Présentation, projets et contact, avec animations modernes et design responsive.
 
+## Fonctionnalités
+- **Section d’accueil animée** (texte tapé) et **effet neige décoratif**
+- **Navigation fixe** et **mise en page responsive**
+- **À propos** avec présentation rapide
+- **Projets filtrables** (catégories) avec aperçu, liens GitHub/Live et **modale de détails**
+- **Succès / statistiques** (section achievements)
+- **Formulaire de contact** via API route Next.js et envoi d’emails avec Resend
+- **Liens sociaux** (GitHub, Facebook, WhatsApp)
+- **Thème sombre** et **animations Framer Motion**
+
+## Stack
+- Next.js 16 (App Router), React 19
+- Tailwind CSS 4, Framer Motion, @heroicons/react
+- Resend (envoi d’e-mails pour le formulaire de contact)
+
+## Démarrage rapide
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
+Puis ouvrir http://localhost:3000
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Configuration (optionnelle)
+- Créer un fichier `.env.local` avec `RESEND_API_KEY=<votre_clef>` pour activer l’envoi du formulaire de contact.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 📄 License
+MIT License
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
