@@ -49,9 +49,7 @@ const HeroSection = () => {
             
             {/* Bouton Télécharger CV - Lien Google Drive */}
             <a 
-              href="VOTRE_LIEN_GOOGLE_DRIVE_ICI" 
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/cv/CV - RAJOELISON Mamy Tahirisoa-L3.pdf" 
               className='px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 to-cyan-500 hover:bg-gradient-to-bl text-white mt-3 inline-block'
             >
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
