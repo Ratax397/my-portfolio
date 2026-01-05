@@ -141,7 +141,7 @@ const AboutSection = () => {
             </TabButton>
           </div>
           
-          <div className='mt-8 h-[250px] overflow-y-auto'>
+          <div className='mt-8 h-[250px] overflow-y-auto scrollbar-hide'>
             {TAB_DATA.find((t) => t.id === tab).content}
           </div>
         </div>
