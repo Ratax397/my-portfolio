@@ -60,3 +60,12 @@ body {
 .animate-fade-in-scale {
   animation: fade-in-scale 5s ease-in-out forwards;
 }
+
+.scrollbar-hide {
+  -ms-overflow-style: none;  
+  scrollbar-width: none;  
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;  
+}
