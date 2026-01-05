@@ -1,6 +1,7 @@
 "use client"
 import React, { useState, useTransition } from 'react'
 import Image from 'next/image'
+import { Sparkles, GraduationCap, Award } from 'lucide-react'
 import TabButton from './TabButton';
 
 const TAB_DATA = [
@@ -8,16 +9,43 @@ const TAB_DATA = [
     title: "Skills",
     id: "skills",
     content: (
-      <ul className='list-disc pl-2'>
-        <li>{"> "}TypeScript</li>
-        <li>{"> "}MongoDB</li>
-        <li>{"> "}Express.js</li>
-        <li>{"> "}React</li>
-        <li>{"> "}Node.js</li>
-        <li>{"> "}Next.js</li>
-        <li>{"> "}Firebase</li>
-        <li>{"> "}Appwrite</li>
-        <li>{"> "}Cloudinary</li>
+      <ul className='pl-2 space-y-2'>
+        <li className="flex items-center gap-3 group">
+          <Sparkles className="w-4 h-4 text-purple-400 flex-shrink-0 group-hover:text-purple-300 transition-colors" />
+          <span className="group-hover:text-purple-300 transition-colors">TypeScript</span>
+        </li>
+        <li className="flex items-center gap-3 group">
+          <Sparkles className="w-4 h-4 text-purple-400 flex-shrink-0 group-hover:text-purple-300 transition-colors" />
+          <span className="group-hover:text-purple-300 transition-colors">MongoDB</span>
+        </li>
+        <li className="flex items-center gap-3 group">
+          <Sparkles className="w-4 h-4 text-purple-400 flex-shrink-0 group-hover:text-purple-300 transition-colors" />
+          <span className="group-hover:text-purple-300 transition-colors">Express.js</span>
+        </li>
+        <li className="flex items-center gap-3 group">
+          <Sparkles className="w-4 h-4 text-purple-400 flex-shrink-0 group-hover:text-purple-300 transition-colors" />
+          <span className="group-hover:text-purple-300 transition-colors">React</span>
+        </li>
+        <li className="flex items-center gap-3 group">
+          <Sparkles className="w-4 h-4 text-purple-400 flex-shrink-0 group-hover:text-purple-300 transition-colors" />
+          <span className="group-hover:text-purple-300 transition-colors">Node.js</span>
+        </li>
+        <li className="flex items-center gap-3 group">
+          <Sparkles className="w-4 h-4 text-purple-400 flex-shrink-0 group-hover:text-purple-300 transition-colors" />
+          <span className="group-hover:text-purple-300 transition-colors">Next.js</span>
+        </li>
+        <li className="flex items-center gap-3 group">
+          <Sparkles className="w-4 h-4 text-purple-400 flex-shrink-0 group-hover:text-purple-300 transition-colors" />
+          <span className="group-hover:text-purple-300 transition-colors">Firebase</span>
+        </li>
+        <li className="flex items-center gap-3 group">
+          <Sparkles className="w-4 h-4 text-purple-400 flex-shrink-0 group-hover:text-purple-300 transition-colors" />
+          <span className="group-hover:text-purple-300 transition-colors">Appwrite</span>
+        </li>
+        <li className="flex items-center gap-3 group">
+          <Sparkles className="w-4 h-4 text-purple-400 flex-shrink-0 group-hover:text-purple-300 transition-colors" />
+          <span className="group-hover:text-purple-300 transition-colors">Cloudinary</span>
+        </li>
       </ul>
     )
   },
@@ -25,11 +53,23 @@ const TAB_DATA = [
     title: "Education",
     id: "education",
     content: (
-      <ul className='list-disc pl-2'>
-        <li>{"> "}Licence 3 (mention Très Bien) - Institut Supérieur Polytechnique de Madagascar à Antsobolo (ISPM) | 2024-2025</li>
-        <li>{"> "}Licence 2 (mention Assez Bien) - Institut Supérieur Polytechnique de Madagascar à Antsobolo (ISPM) | 2023-2024</li>
-        <li>{"> "}Licence 1 - Institut Supérieur Polytechnique de Madagascar à Antsobolo (ISPM) | 2019-2021</li>
-        <li>{"> "}Baccalauréat série D - Lycée Sainte Famille à Anosivavaka (LSFA) | 2018-2019</li>
+      <ul className='pl-2 space-y-3'>
+        <li className="flex items-start gap-3 group">
+          <GraduationCap className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5 group-hover:text-blue-300 transition-colors" />
+          <span className="group-hover:text-blue-300 transition-colors">Licence 3 (mention Très Bien) - Institut Supérieur Polytechnique de Madagascar à Antsobolo (ISPM) | 2024-2025</span>
+        </li>
+        <li className="flex items-start gap-3 group">
+          <GraduationCap className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5 group-hover:text-blue-300 transition-colors" />
+          <span className="group-hover:text-blue-300 transition-colors">Licence 2 (mention Assez Bien) - Institut Supérieur Polytechnique de Madagascar à Antsobolo (ISPM) | 2023-2024</span>
+        </li>
+        <li className="flex items-start gap-3 group">
+          <GraduationCap className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5 group-hover:text-blue-300 transition-colors" />
+          <span className="group-hover:text-blue-300 transition-colors">Licence 1 - Institut Supérieur Polytechnique de Madagascar à Antsobolo (ISPM) | 2019-2021</span>
+        </li>
+        <li className="flex items-start gap-3 group">
+          <GraduationCap className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5 group-hover:text-blue-300 transition-colors" />
+          <span className="group-hover:text-blue-300 transition-colors">Baccalauréat série D - Lycée Sainte Famille à Anosivavaka (LSFA) | 2018-2019</span>
+        </li>
       </ul>
     )
   },
@@ -37,8 +77,11 @@ const TAB_DATA = [
     title: "Certification",
     id: "certification",
     content: (
-      <ul className='list-disc pl-2'>
-        <li>{"> "}Certificat en Anglais (mention Excellent) - English School of Madagascar à Antanimena (ESM) | 2021-2023</li>
+      <ul className='pl-2 space-y-2'>
+        <li className="flex items-start gap-3 group">
+          <Award className="w-5 h-5 text-yellow-400 flex-shrink-0 mt-0.5 group-hover:text-yellow-300 transition-colors" />
+          <span className="group-hover:text-yellow-300 transition-colors">Certificat en Anglais (mention Excellent) - English School of Madagascar à Antanimena (ESM) | 2021-2023</span>
+        </li>
       </ul>
     )
   },
