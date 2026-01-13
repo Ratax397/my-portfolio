@@ -108,6 +108,34 @@ const projectsData = [
       "Support fréquences : quotidienne, hebdomadaire, mensuelle, annuelle"
     ]
   },
+  {
+    id: 5,
+    title: "Tsidika - Réservation d'Hébergements",
+    description: "Application de réservation d'hébergements avec gestion complète",
+    image: "/images/projects/td1.png",
+    images: [
+      "/images/projects/td1.png",
+      "/images/projects/td2.png",
+      "/images/projects/td3.png",
+      "/images/projects/td4.png",
+      "/images/projects/td5.png",
+      "/images/projects/td6.png",
+      "/images/projects/td7.png",
+    ],
+    tag: ["Tout", "Web"],
+    gitUrl: "https://github.com/Ratax397/Tsidika-1.0",
+    liveUrl: "https://github.com/Ratax397/Tsidika-1.0",
+    detailedDescription: "Application monorepo de réservation d'hébergements avec front-end React (Vite) et back-end Node/Express. Stockage des images sur Cloudinary et protection par Arcjet contre les bots et les abus.",
+    technologies: ["React 19", "Vite", "React Router", "Tailwind CSS", "Node.js", "Express 5", "MongoDB", "Mongoose", "Cloudinary", "Arcjet"],
+    features: [
+      "Authentification par cookie JWT (register, login, logout)",
+      "Gestion des hébergements : création, édition, photos multiples",
+      "Upload de photos par URL ou depuis appareil via Cloudinary",
+      "Définition d'une photo principale et suppression de photos",
+      "Système de réservation : créer et consulter les réservations",
+      "Protection par Arcjet : détection de bots et limitation de requêtes"
+    ]
+  },
 ];
 
 const ProjectsSection = () => {
