@@ -136,6 +136,27 @@ const projectsData = [
       "Protection par Arcjet : détection de bots et limitation de requêtes"
     ]
   },
+  {
+    id: 6,
+    title: "Projet Futur - À Venir",
+    description: "Le prochain projet que nous bâtirons ensemble",
+    image: "/images/projects/future1.png",
+    images: [
+      "/images/projects/future2.png",
+    ],
+    tag: ["Tout", "Web", "Mobile"],
+    gitUrl: "https://github.com/Ratax397/Ratax397",
+    liveUrl: "https://github.com/Ratax397/Ratax397",
+    detailedDescription: "Ce projet reste à construire, et c'est ça qui est excitant. C'est une page blanche pour nos idées. Ensemble, on va imaginer et créer quelque chose d'unique. Les meilleurs projets naissent souvent d'une simple conversation... et si on créait ensemble ?",
+    technologies: ["À définir", "Technologies innovantes", "Stack moderne"],
+    features: [
+      "Fonctionnalités à imaginer ensemble",
+      "Architecture à concevoir",
+      "Solutions créatives à développer",
+      "Expérience utilisateur unique",
+      "Innovation et créativité"
+    ]
+  },
 ];
 
 const ProjectsSection = () => {
