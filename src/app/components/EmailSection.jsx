@@ -4,6 +4,7 @@ import GithubIcon from "../../../public/github-icon.svg"
 import FacebookIcon from "../../../public/facebook-icon.svg"
 import EmailIcon from "../../../public/gmail-icon.svg"
 import WhatsappIcon from "../../../public/whatsapp-icon.svg"
+import LinkedInIcon from "../../../public/linkedin-icon.svg"
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -62,6 +63,9 @@ const EmailSection = () => {
                 </a>
                 <a href="https://wa.me/261347449182" target="_blank" rel="noopener noreferrer">
                     <Image src={WhatsappIcon} alt="WhatsApp" className="hover:opacity-70 transition-opacity duration-300"/>
+                </a>
+                <a href="https://www.linkedin.com/in/rajoelison-mamy-tahirisoa/" target="_blank" rel="noopener noreferrer">
+                    <Image src={LinkedInIcon} alt="WhatsApp" className="hover:opacity-70 transition-opacity duration-300"/>
                 </a>
             </div>
         </div>
