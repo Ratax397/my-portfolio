@@ -136,6 +136,8 @@ const projectsData = [
       "Protection par Arcjet : détection de bots et limitation de requêtes"
     ]
   },
+
+  /*
   {
     id: 6,
     title: "Projet Futur - À Venir",
@@ -157,6 +159,38 @@ const projectsData = [
       "Innovation et créativité"
     ]
   },
+  */
+
+  {
+    id: 6,
+    title: "Tsidika 2.0 - Location & Réservation",
+    description: "Plateforme moderne de location et réservation de propriétés",
+    image: "/images/projects/ds1.png",
+    images: [  
+      "/images/projects/ds1.png",
+      "/images/projects/ds2.png",
+      "/images/projects/ds3.png",
+      "/images/projects/ds4.png",
+      "/images/projects/ds5.png",
+      "/images/projects/ds6.png",
+    ],
+    tag: ["Tout", "Web"],
+    gitUrl: "https://github.com/Ratax397/Tsidika-2.0",
+    liveUrl: "https://tsidika-2-0.vercel.app",
+    detailedDescription: "Plateforme complète de location et réservation de propriétés construite avec Next.js App Router. Les hôtes peuvent lister leurs propriétés et les voyageurs peuvent rechercher, ajouter aux favoris et réserver des séjours avec gestion avancée des disponibilités et carte interactive.",
+    technologies: ["Next.js 16", "React 19", "TypeScript", "Tailwind CSS 4", "Prisma ORM", "MongoDB", "NextAuth", "Cloudinary", "Leaflet", "React Hook Form", "Zustand", "React Date Range"],
+    features: [
+      "Authentification sécurisée avec NextAuth et Prisma",
+      "Création et gestion complète de propriétés avec photos multiples",
+      "Recherche avancée avec filtres (localisation, dates, capacité, catégorie)",
+      "Carte interactive avec Leaflet synchronisée aux résultats",
+      "Système de réservation avec vérification des disponibilités",
+      "Gestion des favoris avec toggle et page dédiée",
+      "Dashboards : mes voyages, mes réservations, mes propriétés",
+      "Interface responsive avec modals, validation formulaires et notifications"
+    ]
+  },
+
 ];
 
 const ProjectsSection = () => {
