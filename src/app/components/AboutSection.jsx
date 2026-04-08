@@ -56,7 +56,7 @@ const TAB_DATA = [
       <ul className='pl-2 space-y-3'>
         <li className="flex items-start gap-3 group">
           <GraduationCap className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5 group-hover:text-blue-300 transition-colors" />
-          <span className="group-hover:text-blue-300 transition-colors">Licence 3 (mention Très Bien) - Institut Supérieur Polytechnique de Madagascar à Antsobolo (ISPM) | 2024-2025</span>
+          <span className="group-hover:text-blue-300 transition-colors">Licence 3 (en cours) - Institut Supérieur Polytechnique de Madagascar à Antsobolo (ISPM) | 2024-2025</span>
         </li>
         <li className="flex items-start gap-3 group">
           <GraduationCap className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5 group-hover:text-blue-300 transition-colors" />
